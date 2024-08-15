@@ -4,16 +4,17 @@ plugins {
     id("net.labymod.gradle.addon")
 }
 
-group = "org.example"
+group = "gg.blackdev"
 version = System.getenv().getOrDefault("VERSION", "1.0.0")
 
+
 labyMod {
-    defaultPackageName = "org.example" //change this to your main package name (used by all modules)
+    defaultPackageName = "gg.blackdev.bdrecording" //change this to your main package name (used by all modules)
     addonInfo {
-        namespace = "example"
-        displayName = "ExampleAddon"
-        author = "Example Author"
-        description = "Example Description"
+        namespace = "bdrecording"
+        displayName = "BDRecording"
+        author = "BlackDev"
+        description = "Record your gameplay and get clips out of it detected by ai or button click"
         minecraftVersion = "*"
         version = getVersion().toString()
     }

@@ -1,0 +1,13 @@
+{
+  "bdrecording": {
+    "settings": {
+      "name": "BDRecording",
+      "enabled": {
+        "name": "Enabled"
+      },
+      "snap": {
+        "name": "Snap Key"
+      }
+    }
+  }
+}
