@@ -7,6 +7,25 @@
       },
       "snap": {
         "name": "Snap Key"
+      },
+      "ai": {
+        "name": "Toggle AI"
+      },
+      "recordingwidget": {
+        "name": "Show Widget?"
+      },
+      "header": {
+        "KeyBinds": {
+          "name": "KeyBindings"
+        },
+        "Widgets": {
+          "name": "Widgets"
+        }
+      }
+    },
+    "hudWidget": {
+      "bdrecording": {
+        "name": "BD:"
       }
     }
   }
